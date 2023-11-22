@@ -3,7 +3,7 @@ from cvzone.HandTrackingModule import HandDetector
 import socket
 
 #Parameters
-width, height = 1280,720
+width, height = 640,480
 
 #Webcam
 cap = cv2.VideoCapture(0)
